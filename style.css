@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body {
+  display: flex;
+  padding-top: 60px;
+}
+
+.prodect {
+  width: 60vw;
+  transform: translateX(5vw);
+}
+
+.subscribe {
+  width: 30vw;
+  transform: translateX(5vw);
+}
+
+.header {
+  display: grid;
+  place-items: center;
+  position: fixed;
+  z-index: 999;
+  background-color: #222222;
+  border-radius: 20px;
+  width: 95vw;
+  height: 48px;
+  font-size: 20px;
+  font-weight: bold;
+  p {
+    margin: 0;
+  }
+}
+
+.image {
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  width: 60vw;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header_gap {
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 998;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 100vw;
+  height: 64px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.description {
+  font-size: 24px;
+  transform: translateY(-30px);
+}
+
+.knowledge_1 {
+  display: flex;
+  font-size: 18px;
+  color: #ffffff;
+  width: 30vw;
+  background-color: #00000000;
+  border: none;
+}
+
+.moreknow {
+  display: grid;
+}
